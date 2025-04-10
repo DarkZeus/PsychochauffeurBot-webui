@@ -1,0 +1,79 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+.pnp.cjs
+.pnp.loader.mjs
+
+# Build outputs
+/dist/
+/build/
+/out/
+/.next/
+
+# Testing
+/coverage/
+/.nyc_output/
+
+# Vite
+.vite/
+vite.config.ts.timestamp-*
+
+# TypeScript
+*.tsbuildinfo
+.tsc-cache/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor-specific
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Yarn/npm
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+.npm
+
+# Misc
+.cache/
+.temp/
+.tmp/
+*.bak
+.history/
